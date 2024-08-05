@@ -1,133 +1,145 @@
 export const navItems = [
-    { name: "About", link: "#about" },
-    { name: "Projects", link: "#projects" },
-    { name: "Experience", link: "#experience" },
-    { name: "Contact", link: "#contact" },
-  ];
-  
-  export const gridItems = [
-    {
-      id: 1,
-      title: "I prioritize client collaboration, fostering open communication ",
-      description: "",
-      className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-      imgClassName: "w-full h-full",
-      titleClassName: "justify-end",
-      img: "/b1.svg",
-      spareImg: "",
-    },
-    {
-      id: 2,
-      title: "I'm very flexible with time zone communications",
-      description: "",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-      imgClassName: "",
-      titleClassName: "justify-start",
-      img: "",
-      spareImg: "",
-    },
-    {
-      id: 3,
-      title: "My tech stack",
-      description: "I constantly try to improve",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-      imgClassName: "",
-      titleClassName: "justify-center",
-      img: "",
-      spareImg: "",
-    },
-    {
-      id: 4,
-      title: "Tech enthusiast with a passion for development.",
-      description: "",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-      imgClassName: "",
-      titleClassName: "justify-start",
-      img: "/grid.svg",
-      spareImg: "/b4.svg",
-    },
-  
-    {
-      id: 5,
-      title: "Currently building a JS Animation library",
-      description: "The Inside Scoop",
-      className: "md:col-span-3 md:row-span-2",
-      imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-      titleClassName: "justify-center md:justify-start lg:justify-center",
-      img: "/b5.svg",
-      spareImg: "/grid.svg",
-    },
-    {
-      id: 6,
-      title: "Do you want to start a project together?",
-      description: "",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-      imgClassName: "",
-      titleClassName: "justify-center md:max-w-full max-w-60 text-center",
-      img: "",
-      spareImg: "",
-    },
-  ];
-  
-  export const projects = [
-    {
-      id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "/ui.earth.com",
-    },
-    {
-      id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "/ui.yoom.com",
-    },
-    {
-      id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "/ui.aiimg.com",
-    },
-    {
-      id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "/ui.apple.com",
-    },
-  ];
-  
-  export const workExperience = [
-    {
-      id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-      className: "md:col-span-2",
-      thumbnail: "/exp1.svg",
-    },
-  ];
-  
-  export const socialMedia = [
-    {
-      id: 1,
-      img: "/git.svg",
-      url: "https://github.com/Kushhhhhhhh",
-    },
-    {
-      id: 2,
-      img: "/twit.svg",
-      url: "https://twitter.com",
-    },
-    {
-      id: 3,
-      img: "/link.svg",
-      url: "https://linkedin.com",
-    },
-  ];
+  { name: "About", link: "#about" },
+  { name: "Projects", link: "#projects" },
+  { name: "Experience", link: "#experience" },
+  { name: "Contact", link: "#contact" },
+];
+
+export const gridItems = [
+  {
+    id: 1,
+    title: "I prioritize client collaboration, fostering open communication ",
+    description: "",
+    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
+    imgClassName: "w-full h-full",
+    titleClassName: "justify-end",
+    img: "/b1.svg",
+    spareImg: "",
+  },
+  {
+    id: 2,
+    title: "Flexible with time zone communications",
+    description: "",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+    imgClassName: "",
+    titleClassName: "justify-start",
+    img: "",
+    spareImg: "",
+  },
+  {
+    id: 3,
+    title: "My tech stack",
+    description: "I constantly try to improve",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
+    imgClassName: "",
+    titleClassName: "justify-center",
+    img: "",
+    spareImg: "",
+  },
+  {
+    id: 4,
+    title: "Passionate Tech Enthusiast",
+    description: "",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+    imgClassName: "",
+    titleClassName: "justify-start",
+    img: "/grid.svg",
+    spareImg: "/b4.svg",
+  },
+
+  {
+    id: 5,
+    title: "Committed to excelling in my comprehensive tech stack.",
+    description: "The Inside Scoop",
+    className: "md:col-span-3 md:row-span-2",
+    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
+    titleClassName: "justify-center md:justify-start lg:justify-center",
+    img: "/b5.svg",
+    spareImg: "/grid.svg",
+  },
+  {
+    id: 6,
+    title: "Interested in Collaborating on a Project?",
+    description: "",
+    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
+    imgClassName: "",
+    titleClassName: "justify-center md:max-w-full max-w-60 text-center",
+    img: "",
+    spareImg: "",
+  },
+];
+
+export const projects = [
+  {
+    id: 1,
+    title: "Silent Survey",
+    des: "A transformative feedback web application empowers you to gather unfiltered, honest insights by fostering a safe and anonymous environment.",
+    img: "/silent-survey.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/mongo.svg"],
+    link: "https://silent-survey.vercel.app",
+  },
+  {
+    id: 2,
+    title: "AI Trip Planner",
+    des: "Effortlessly generate personalized trips with AI. Save your plans for future reference and enjoy a seamless, minimalist travel planning experience.",
+    img: "/ai-trip.png",
+    iconLists: ["/re.svg", "/tail.svg", "/firebase.svg"],
+    link: "https://ai-trip-planner-beta.vercel.app",
+  },
+  {
+    id: 3,
+    title: "AI Summarizer",
+    des: "Summarize news articles effortlessly with our free AI Summarizer. Just paste the link and get concise, helpful summaries instantly. ",
+    img: "/ai-sumz.png",
+    iconLists: ["/re.svg", "/tail.svg", "/redux.svg"],
+    link: "https://ai-summarizer-webapp.vercel.app",
+  },
+  {
+    id: 4,
+    title: "Recipe Finder - Cook Mom",
+    des: "Recipe Finder is a dynamic web application built using React that helps users discover a variety of recipes effortlessly and save them for later.",
+    img: "/recipe.png",
+    iconLists: ["/re.svg", "/tail.svg"],
+    link: "https://recipe-finding-webapp.netlify.app",
+  },
+  {
+    id: 5,
+    title: "HiLink Travel App UI",
+    des: "Explore our stunning travel website, offering flights, accommodations, tours, and more, to make your dream adventures effortlessly come true.",
+    img: "/travel-ui.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
+    link: "https://hilink-travel-app-ui.vercel.app",
+  },
+  {
+    id: 6,
+    title: "Sushi Delight - UI",
+    des: "Experience Sushi Delight's stunning visuals and animations. Explore various sections of our beautifully designed restaurant website.",
+    img: "/sushi-delight.png",
+    iconLists: ["/html.svg", "/css.svg", "/js.svg"],
+    link: "https://sushi-delight.netlify.app",
+  }
+];
+
+export const workExperience = [
+  {
+    id: 1,
+    title: "Web Developer Intern",
+    desc: "Internship Duration: 1 month (1 Mar - 1 Apr)\n\nDuring my internship, I successfully completed two projects:\n\n1. Developed a responsive landing page using HTML and CSS.\n2. Built a React application with exercise API integration.",
+    className: "md:col-span-2",
+    thumbnail: "/exp1.svg",
+  },
+];
+
+
+export const socialMedia = [
+  {
+    id: 1,
+    img: "/git.svg",
+    url: "https://github.com/Kushhhhhhhh",
+  },
+  {
+    id: 2,
+    img: "/link.svg",
+    url: "https://www.linkedin.com/in/kushsharma738/",
+  },
+];
