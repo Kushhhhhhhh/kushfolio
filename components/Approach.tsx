@@ -11,13 +11,10 @@ const Approach = () => {
       </h1>
       
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
-       
         <Card
           title="Planning & Strategy"
           icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          des="We'll collaborate to define the objectives, target audience, and core functionalities of your website. This phase includes detailed discussions on site architecture, user flow, and content strategy to ensure a robust foundation."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -25,18 +22,14 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
+          title="Development & Progress Updates"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          des="With a solid plan in place, I immerse myself in coding, ensuring each component is crafted meticulously. Regular updates and feedback loops are maintained to keep you informed about the progress and any necessary adjustments."
         >
           <CanvasRevealEffect
             animationSpeed={3}
-           
             containerClassName="bg-pink-900 rounded-3xl overflow-hidden"
             colors={[
-             
               [255, 166, 158],
               [221, 255, 247],
             ]}
@@ -44,11 +37,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Launch"
+          title="Final Development & Launch"
           icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          des="In this phase, I transform the approved designs into a fully functional, responsive website. From backend integration to frontend finesse, every detail is meticulously implemented. The launch process is smooth, with thorough testing to ensure everything works seamlessly."
         >
           <CanvasRevealEffect
             animationSpeed={3}

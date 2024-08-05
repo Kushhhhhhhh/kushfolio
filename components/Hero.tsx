@@ -24,10 +24,10 @@ const Hero = () => {
           </p>
           <TextGenerateEffect 
           className='text-center text-[40px] md:text-5xl lg:text-6xl'
-          words='Transforming Concepts into Seamless User Experiences'
+          words='Hello, I&apos;m Kush Sharma, Next.js Developer hailing from India.'
           />
           <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-          Hello, I&apos;m Kush, a proficient Next.js Developer hailing from India.
+          Transforming Concepts into Seamless User Experiences 
           </p>
           <a href="#projects">
             <MagicButton 

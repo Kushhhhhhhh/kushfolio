@@ -1,6 +1,6 @@
 'use client';
 import { useState } from "react";
-import { IoCopyOutline } from "react-icons/io5";
+import { FaDownload } from "react-icons/fa";
 import Lottie from "react-lottie";
 import { cn } from "@/utils/cn";
 import { BackgroundGradientAnimation } from "./Gradient-BG";
@@ -46,14 +46,14 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
-  const leftLists = ["React JS", "Next JS", "Tailwind CSS"];
+  const leftLists = ["Postman", "Next JS", "React"];
   const rightLists = ["Node JS", "Express JS", "MongoDB"];
 
-  const [copied, setCopied] = useState(false);
+  const [downloaded, setDownloaded] = useState(false);
 
   const defaultOptions = {
-    loop: copied,
-    autoplay: copied,
+    loop: downloaded,
+    autoplay: downloaded,
     animationData: animationData,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice",
@@ -61,9 +61,13 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "kush.73888@gmail.com";
-    navigator.clipboard.writeText(text);
-    setCopied(true);
+    const link = document.createElement('a');
+    link.href = '/cv.pdf'; 
+    link.download = 'Kush_CV.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+    setDownloaded(true);
   };
 
   return (
@@ -153,15 +157,15 @@ export const BentoGridItem = ({
           {id === 6 && (
             <div className="mt-5 relative">
               <div
-                className={`absolute -bottom-5 right-0 ${copied ? "block" : "block"
+                className={`absolute -bottom-5 right-0 ${downloaded ? "block" : "block"
                   }`}
               >
                 <Lottie options={defaultOptions} height={200} width={400} />
               </div>
 
               <MagicButton
-                title={copied ? "Email is Copied!" : "Copy my email address"}
-                icon={<IoCopyOutline />}
+                title={downloaded ? "Downloaded" : "Download CV"}
+                icon={<FaDownload />}
                 position="left"
                 handleClick={handleCopy}
                 otherClasses="!bg-[#161A31]"
