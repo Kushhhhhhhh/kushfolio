@@ -10,7 +10,7 @@ const RecentProjects = () => {
         A small selection of{" "}
         <span className="text-purple">Recent Projects</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-x-8 gap-y-8">
+      <div className="flex flex-wrap items-center justify-center p-4 gap-x-8 gap-y-8 mt-10">
         {projects.map((item) => (
           <div
             className="flex flex-col items-center justify-center lg:min-h-[32.5rem] sm:min-h-[28rem] min-h-[25rem] sm:w-[500px] w-[80vw] rounded-lg shadow-lg overflow-hidden"
@@ -33,12 +33,12 @@ const RecentProjects = () => {
                 />
               </div>
 
-              <h1 className="font-bold lg:text-2xl md:text-xl text-base text-center">
+              <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
                 {item.title}
               </h1>
 
               <p
-                className="lg:text-xl lg:font-normal font-light text-sm text-center"
+                className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
                 style={{
                   color: "#BEC1DD",
                   margin: "1vh 0",
@@ -47,7 +47,7 @@ const RecentProjects = () => {
                 {item.des}
               </p>
 
-              <div className="flex items-center justify-between mt-7 mb-3 w-full px-4">
+              <div className="flex items-center justify-between mt-7 mb-3">
                 <div className="flex items-center">
                   {item.iconLists.map((icon, index) => (
                     <div

@@ -23,8 +23,8 @@ const Hero = () => {
             Dynamic Web Magic with Next JS
           </p>
           <TextGenerateEffect 
-          className='text-center text-[40px] md:text-5xl lg:text-6xl'
-          words='Hello, I&apos;m Kush Sharma, Next.js Developer hailing from India.'
+          className='text-center text-[40px] md:text-5xl lg:text-7xl'
+          words='Hello, I am Kush Sharma,  A Next JS Developer.'
           />
           <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
           Transforming Concepts into Seamless User Experiences 
