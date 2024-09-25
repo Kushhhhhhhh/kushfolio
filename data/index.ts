@@ -72,6 +72,14 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "VisionForge",
+    des: "isionForge is an open-source platform that empowers users to generate stunning images for free using prompts, with unlimited creations and customizable effects.",
+    img: "/visionforge.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/prisma.svg", "framer-motion.svg"],
+    link: "https://visionforge.vercel.app",
+  },
+  {
+    id: 2,
     title: "Silent Survey",
     des: "A transformative feedback web application empowers you to gather unfiltered, honest insights by fostering a safe and anonymous environment.",
     img: "/silent-survey.png",
@@ -79,7 +87,7 @@ export const projects = [
     link: "https://silent-survey.vercel.app",
   },
   {
-    id: 2,
+    id: 3,
     title: "AI Trip Planner",
     des: "Effortlessly generate personalized trips with AI. Save your plans for future reference and enjoy a seamless, minimalist travel planning experience.",
     img: "/ai-trip.png",
@@ -87,49 +95,33 @@ export const projects = [
     link: "https://ai-trip-planner-beta.vercel.app",
   },
   {
-    id: 3,
+    id: 4,
     title: "AI Summarizer",
     des: "Summarize news articles effortlessly with our free AI Summarizer. Just paste the link and get concise, helpful summaries instantly. ",
     img: "/ai-sumz.png",
     iconLists: ["/re.svg", "/tail.svg", "/redux.svg"],
     link: "https://ai-summarizer-webapp.vercel.app",
   },
-  {
-    id: 4,
-    title: "Recipe Finder - Cook Mom",
-    des: "Recipe Finder is a dynamic web application built using React that helps users discover a variety of recipes effortlessly and save them for later.",
-    img: "/recipe.png",
-    iconLists: ["/re.svg", "/tail.svg"],
-    link: "https://recipe-finding-webapp.netlify.app",
-  },
-  {
-    id: 5,
-    title: "HiLink Travel App UI",
-    des: "Explore our stunning travel website, offering flights, accommodations, tours, and more, to make your dream adventures effortlessly come true.",
-    img: "/travel-ui.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg"],
-    link: "https://hilink-travel-app-ui.vercel.app",
-  },
-  {
-    id: 6,
-    title: "Sushi Delight - UI",
-    des: "Experience Sushi Delight's stunning visuals and animations. Explore various sections of our beautifully designed restaurant website.",
-    img: "/sushi-delight.png",
-    iconLists: ["/html.svg", "/css.svg", "/js.svg"],
-    link: "https://sushi-delight.netlify.app",
-  }
 ];
 
 export const workExperience = [
   {
     id: 1,
     title: "Web Developer Intern",
-    desc: "Internship Duration: 1 month (1 Mar - 1 Apr)\n\nDuring my internship, I successfully completed two projects:\n\n1. Developed a responsive landing page using HTML and CSS.\n2. Built a React application with exercise API integration.",
+    desc: "Internship Duration: 1 month (1 Mar - 1 Apr)\n\n• Created a fully responsive landing page using HTML and CSS to enhance user experience across all devices.\n• Developed a dynamic React.js application integrated with an exercise API for real-time workout data and personalized recommendations.\n• Implemented state management and React lifecycle methods, improving application performance and scalability.\n• Optimized data fetching and error handling processes, ensuring reliable and responsive application performance.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
+    link: "/codeclause.pdf"
   },
+  {
+    id: 2,
+    title: "Frontend Developer",
+    desc: "Internship Duration: 1 month (15 Sept - 15 Oct)\n\n• Wrote clean, modular code aligned with frontend best practices, emphasizing performance and maintainability.\n• Designed and deployed a responsive portfolio website to showcase technical skills and projects effectively.\n• Developed a responsive image gallery with HTML, CSS, and JavaScript for seamless browsing and interaction.\n• Engineered a fully functional calculator with real-time operations, leveraging JavaScript for an intuitive user interface.",
+    className: "md:col-span-2",
+    thumbnail: "/exp2.svg",
+    link: ""
+   }
 ];
-
 
 export const socialMedia = [
   {
