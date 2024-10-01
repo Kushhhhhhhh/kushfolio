@@ -80,6 +80,14 @@ export const projects = [
   },
   {
     id: 2,
+    title: "Bentolio",
+    des: "A unique, single-page web project that combines the concepts of a Bento Grid and Portfolio, resulting in a visually captivating and fully responsive design.",
+    img: "/bentolio.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "framer-motion.svg", "/gsap.svg"],
+    link: "https://bentolio-design.vercel.app"
+  },
+  {
+    id: 3,
     title: "Silent Survey",
     des: "A transformative feedback web application empowers you to gather unfiltered, honest insights by fostering a safe and anonymous environment.",
     img: "/silent-survey.png",
@@ -87,7 +95,7 @@ export const projects = [
     link: "https://silent-survey.vercel.app",
   },
   {
-    id: 3,
+    id: 4,
     title: "AI Trip Planner",
     des: "Effortlessly generate personalized trips with AI. Save your plans for future reference and enjoy a seamless, minimalist travel planning experience.",
     img: "/ai-trip.png",
@@ -95,13 +103,13 @@ export const projects = [
     link: "https://ai-trip-planner-beta.vercel.app",
   },
   {
-    id: 4,
+    id: 5,
     title: "AI Summarizer",
     des: "Summarize news articles effortlessly with our free AI Summarizer. Just paste the link and get concise, helpful summaries instantly. ",
     img: "/ai-sumz.png",
     iconLists: ["/re.svg", "/tail.svg", "/redux.svg"],
     link: "https://ai-summarizer-webapp.vercel.app",
-  },
+  }
 ];
 
 export const workExperience = [
@@ -134,4 +142,9 @@ export const socialMedia = [
     img: "/link.svg",
     url: "https://www.linkedin.com/in/kushsharma738/",
   },
+  {
+    id: 3,
+    img: "/twit.svg",
+    url: "https://x.com/KushSha06747704"
+  }
 ];

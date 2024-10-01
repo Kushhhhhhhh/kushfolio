@@ -3,6 +3,7 @@ import React from "react";
 import { workExperience } from "@/data";
 import { Button } from "./ui/MovingBorders";
 import Image from "next/image";
+import Link from "next/link"
 
 type WorkExperienceType = {
   id: number;
@@ -58,14 +59,14 @@ const ExperienceCard: React.FC<WorkExperienceType> = ({
           __html: desc.replace(/\n/g, "<br>"),
         }}
       />
-      <a
+      <Link
         href={link}
         target="_blank"
         rel="noopener noreferrer"
         className="inline-block px-4 py-2 border border-purple rounded-lg hover:bg-purple-700 transition-colors duration-300 text-center"
       >
         View Certificate
-      </a>
+      </Link>
     </Button>
   );
 };
