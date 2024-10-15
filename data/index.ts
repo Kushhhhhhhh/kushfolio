@@ -127,7 +127,7 @@ export const workExperience = [
     desc: "Internship Duration: 1 month (15 Sept - 15 Oct)\n\n• Wrote clean, modular code aligned with frontend best practices, emphasizing performance and maintainability.\n• Designed and deployed a responsive portfolio website to showcase technical skills and projects effectively.\n• Developed a responsive image gallery with HTML, CSS, and JavaScript for seamless browsing and interaction.\n• Engineered a fully functional calculator with real-time operations, leveraging JavaScript for an intuitive user interface.",
     className: "md:col-span-2",
     thumbnail: "/exp2.svg",
-    link: ""
+    link: "/codealpha.pdf"
    }
 ];
 
